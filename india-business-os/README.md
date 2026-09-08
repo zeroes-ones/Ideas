@@ -49,6 +49,7 @@ Read in this order; each file ends with implications:
 | **`docs/partner-feedback-log.md`** | **Capture sheet for partner sessions** | **After each partner meeting** |
 | `docs/marketplace-audit.md` | Marketplace cold-start/liquidity/trust audit + unit-econ gaps (skill-assisted) | Before build / pricing finalization |
 | `docs/journey-flows.md` | Role journeys & **40 real-time scenarios (8 per actor: customer/individual/small/medium/large)** with flows + economics | Partner reviews · UX design · W38 scripts |
+| `docs/changelog.md` | Project history log (date → what changed → why → OQ/decision resolved) | Any session end / decision day |
 | `docs/module-map.md` | Which modules, config packs, waves A–D | Architecture/pack planning |
 | `docs/stage-model.md` | Lifecycle stages S1–S6 × functions × **growth ladder I→XS→S→M→L→Corp** | Understanding "one app that adapts" |
 | `docs/domain-model.md` | Entities + state machines (incl. bookings/deals) | Build/API work |
@@ -83,3 +84,14 @@ Read in this order; each file ends with implications:
 - **Done:** research (6 files) + full spec (5-doc pattern + stage model + module map + vision) through v0.3 + validation tools + W35 tooling.
 - **Open decisions (founder)** — scope-brief OQs 1–10: PA partner & fees; which hook (badge/deals/bookings) converts first (OQ3 → H1–H6 interviews); booking workflow readiness of mechanics; deal/no-show rules; **OQ9 resolved → SaaS-first from business owners (2026-09-08); remaining = monthly price point + subscription tiers, validate in H1–H6**; licence-portal routing — Bengaluru 5 corporations + Hyderabad GHMC/TS (OQ10); Hyderabad field pass = W35b + `research/hyderabad-pilot-map.md`.
 - **First executable step:** run W35 (`scripts/pilot-denominator.py`), then W36 field walk, then W38 interviews — all tooled and cross-linked.
+
+## 6. Version control & changelog conventions
+- **Repo:** `zeroes-ones/Ideas` (private). Keep everything for this project inside it; commit often, in **logical units**, one type per commit:
+  - `research: …` — research/*.md findings (tagged `[VERIFIED]/[ESTIMATED]`, sources at bottom)
+  - `spec: …` — scope/module/domain/api/screens changes that alter the contract
+  - `decision: …` — founder decisions recorded in scope-brief OQs / pricing-model (date + tag)
+  - `validation: …` — interview scripts, field tools, work-item updates
+  - `partner: …` — partner briefs, feedback logs, journey flows
+  - `chore: …` — scaffolding, housekeeping (no product content)
+- **Keep docs in sync:** when a decision changes, update the doc that owns it *and* its cross-references (README map, PARTNER-BRIEF §15) in the same commit.
+- **History log:** new entries go to `docs/changelog.md` (date → what changed → why → which OQ/decision it resolves).
