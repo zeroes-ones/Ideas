@@ -65,6 +65,7 @@ Read in this order; each file ends with implications:
 | `research/everyday-needs-landscape.md` | Need clusters × B-types × waves | Pack decisions |
 | `research/two-sided-wants-gaps.md` | Owner/customer wants + gap matrix | Thesis/validation |
 | `research/market-deep-dive.md` | Competitive pricing, ONDC, sizing | Investor/founder review |
+| `research/market-potential.md` | **TAM/SAM/SOM build-up + "gaps we fill" capture — extends market-deep-dive §D4 into execution scenarios** | Sizing/pitch prep · W35/W35b · H4 WTP |
 | `research/bengaluru-pilot-map.md` | Bengaluru governance + pilot unit | Pilot planning |
 | `research/hyderabad-pilot-map.md` | Hyderabad (TS/GHMC) pilot research — partial pass done (licences/S&E/gig Act `[VERIFIED]`); denominator W35b `[VERIFY]` | Parallel pilot-city planning (W35b) |
 | `research/pilot-denominator.md` | W35 method + limits | Running W35 |
@@ -81,7 +82,7 @@ Read in this order; each file ends with implications:
 - **Evidence discipline** — `[VERIFIED]` (≥2 sources), `[ESTIMATED]` (1 source/inference), `[VERIFY at build]` (state-specific/conflicted). Research docs list sources + dates at the bottom. Treat untagged numbers as untrusted.
 
 ## 5. State of the plan & what's open
-- **Done:** research (6 files) + full spec (5-doc pattern + stage model + module map + vision) through v0.3 + validation tools + W35 tooling.
+- **Done:** research base (**12 files**, see §3 map) + full spec (5-doc pattern + stage model + module map + vision) through v0.3 + validation tools + W35 tooling + **market-potential TAM/SAM/SOM model (`research/market-potential.md`)**.
 - **Open decisions (founder)** — scope-brief OQs 1–10: PA partner & fees; which hook (badge/deals/bookings) converts first (OQ3 → H1–H6 interviews); booking workflow readiness of mechanics; deal/no-show rules; **OQ9 resolved → SaaS-first from business owners (2026-09-08); remaining = monthly price point + subscription tiers, validate in H1–H6** · **OQ-I3 resolved → individuals (rung I) ₹0 free verified core, businesses XS→L pay SaaS (2026-09-08; `docs/pricing-model.md`)**; licence-portal routing — Bengaluru 5 corporations + Hyderabad GHMC/TS (OQ10); Hyderabad field pass = W35b + `research/hyderabad-pilot-map.md`.
 - **First executable step:** run W35 (`scripts/pilot-denominator.py`), then W36 field walk, then W38 interviews — all tooled and cross-linked.
 

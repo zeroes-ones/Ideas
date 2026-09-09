@@ -2,6 +2,12 @@
 
 > Convention: newest entry on top. Each entry: date → what changed → why → which OQ/decision it resolves. Commit types: `research` · `spec` · `decision` · `validation` · `partner` · `chore` (see README §6).
 
+## 2026-09-08 — Research: market-potential TAM/SAM/SOM model + gap capture
+- **What:** New `research/market-potential.md` extends `market-deep-dive.md` §D4 into a bottom-up, execution-scenario model: top-down TAM frame (₹24,000–72,000 Cr/yr theoretical envelope from ~1.5–2.5 Cr registered/formalizing premises-based businesses), SAM for the two-city pilot (≈2–2.8L in-scope businesses across Bengaluru + Hyderabad, 4 verticals), and SOM scenario ladder P0→P3 (₹0.9–1.8 Cr → ₹270–900 Cr ARR) gated on WTP (H4), cold-start (≥100 verified/cluster), retention (<5%/mo churn), graduation I→XS+, trust (LM2), cost and config.
+- **Why:** give the founder/partner the "what is the market if executed correctly" answer with honest `[ESTIMATED]`/`[VERIFY]` tagging, and a one-line whitespace statement (no incumbent owns compliance → live badge → verified demand) — before any investor-facing use.
+- **Resolves/changes:** no OQ resolved. Feeds W35/W35b denominators + H1–H6 (esp. H4 median ₹ ≥ ₹99/mo gate); README §3 map + §5 state updated.
+- **Still open:** `[VERIFY]` cells — W35/W35b real in-scope counts, H4 WTP, Justdial campaign-mix split, GST-active × vertical × state national base (file §7).
+
 ## 2026-09-08 — Monetization completed: ₹0 for individuals (rung I), SaaS for businesses (XS→L)
 - **What:** OQ-I3 resolved → individual service providers (rung I) get a **₹0 free verified core** (no subscription, no commission, no lead fees); businesses XS→L pay the SaaS subscription. Clean boundary rule: solo / no premises / no employees = ₹0; any entity / premises / staff = subscription (graduation I→XS+ is the first pay moment).
 - **Why:** they can't be charged profitably yet (40% earn <₹15k/mo); free pros seed booking density for cold start; the ladder monetizes at graduation; ₹0 is a differentiation weapon vs hated industry lead fees.
