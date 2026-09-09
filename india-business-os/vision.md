@@ -26,7 +26,7 @@ The two sides are a loop: businesses the OS helps formalize become the verified 
 
 ## 5. Packaging & monetization — SaaS-first from business owners (founder decision 2026-09-08; full capture in `docs/pricing-model.md`)
 - Business side: **recurring subscription paid by business owners** for the merchant OS (Launch Copilot journeys + renewals calendar + verified badge/storefront/deals). Consumer side is free = growth engine. No per-order take-rate, no paid listings/placement, no consumer subscription.
-- Individual providers (rung I, ProBadge): **separate option set under consideration** (free verified core → outcome-linked later; light subscription; order-fee; verification cost pass-through) — `docs/pricing-model.md` §2, pending OQ-I3/OQ-V2 + provider interviews.
+- Individual providers (rung I, ProBadge): **₹0 free verified core — DECIDED 2026-09-08** (no subscription, no commission, no lead fees for solo earners; the ladder monetizes at graduation to XS+). Verification govt fees (L2, home-entry) bearer = **OQ-V2 open** — see `docs/pricing-model.md` §2.
 - Guardrails: transparent fees; never a paid look-alike of govt portals; no per-lead charges; never monetize consumers. `[ESTIMATED — price band/tiers pending H1–H6]`
 
 ## 6. Success metrics (two-sided)

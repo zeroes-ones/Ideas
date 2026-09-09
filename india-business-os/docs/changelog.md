@@ -2,6 +2,12 @@
 
 > Convention: newest entry on top. Each entry: date → what changed → why → which OQ/decision it resolves. Commit types: `research` · `spec` · `decision` · `validation` · `partner` · `chore` (see README §6).
 
+## 2026-09-08 — Monetization completed: ₹0 for individuals (rung I), SaaS for businesses (XS→L)
+- **What:** OQ-I3 resolved → individual service providers (rung I) get a **₹0 free verified core** (no subscription, no commission, no lead fees); businesses XS→L pay the SaaS subscription. Clean boundary rule: solo / no premises / no employees = ₹0; any entity / premises / staff = subscription (graduation I→XS+ is the first pay moment).
+- **Why:** they can't be charged profitably yet (40% earn <₹15k/mo); free pros seed booking density for cold start; the ladder monetizes at graduation; ₹0 is a differentiation weapon vs hated industry lead fees.
+- **Docs updated:** `pricing-model.md` (rewritten as DECIDED) · `scope-brief.md` · `vision.md` §5 · `PARTNER-BRIEF.md` §8/§0/§13 · `journey-flows.md` · `README.md` §5.
+- **Still open:** OQ9 price band/tiers (H1–H6) · **OQ-V2** (who pays govt verification fees L2/L3 for home-entry categories — lean: at cost, never a subscription) · OQ-I1/I2 · OQ-V1/V3.
+
 ## 2026-09-08 — Initial import & logical history (v0.3 baseline)
 - **What:** Imported the full research + spec + tooling folder into the private repo `zeroes-ones/Ideas` and split the history into 6 logical commits: research · spec core · validation/tooling · pricing decision · partner artifacts · scaffolding.
 - **Why:** give the founder a clean, readable history to work forward from.

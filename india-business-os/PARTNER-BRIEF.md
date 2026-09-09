@@ -17,7 +17,7 @@
 |---|---|---|---|
 | **1 · The idea** | The problem, the two-sided loop, who it serves, the trust engine | §1–§4, §6 · `vision.md` | Endorse: two-sided scope; badge = differentiator; pilot verticals |
 | **2 · Market & why now** | Bundlers, near-misses (Pincode, Justdial×MSSIDC), whitespace | §7 · `research/competitive-map.md` + `market-deep-dive.md` | Does the whitespace hold for them? Is the Pincode read fair? |
-| **3 · Business model** | SaaS-first decision, price ladder, individual-provider options A–D | §8 · `docs/pricing-model.md` | **OQ9** price band/tiers · **OQ-I3** provider option · **OQ-V2** who pays verification |
+| **3 · Business model** | SaaS-first decision + **₹0-for-individuals decision**, price ladder | §8 · `docs/pricing-model.md` | **OQ9** price band/tiers · **OQ-V2** who pays verification fees · endorse ₹0 (rung I) / SaaS (XS→L) split |
 | **4 · Plan & execution** | Pilot, waves, gate, metrics, guardrails | §9–§11 · `docs/scope-brief.md` + `work-items.md` | **OQ3** hook · **OQ4** booking readiness · **OQ6/7** catalog/delivery · **OQ10** licence routing · **OQ1** PA partner · **OQ-I2** legal gate |
 
 Rule of thumb: **don't move to session N+1 until session N's decisions are logged** — the loop, market, and money claims are the load-bearing ones (sessions 1–3); the plan (session 4) changes cheaply.
@@ -148,27 +148,22 @@ Shops are verified on *licences*; individuals have no licences, so their trust i
 
 ## 8. Business model & monetization
 
-**Decision (2026-09-08): SaaS-first, paid by business owners.** Recurring subscription for the merchant OS (Launch Copilot journeys + renewals calendar + verified badge/storefront/deals). The customer side is **free** and is the growth engine — never consumer fees, never per-lead charges.
+**Decisions (2026-09-08):** ① **SaaS-first, paid by businesses (XS→L)** — recurring subscription for the merchant OS (Launch Copilot journeys + renewals calendar + verified badge/storefront/deals). ② **₹0 for individual providers (rung I)** — free verified core, no subscription/commission; the ladder monetizes at graduation to XS+. Customer side is **free** = growth engine — never consumer fees, never per-lead charges.
 
 ```mermaid
 flowchart TD
-    Q{Who are we monetizing?} --> BIZ["Registered business owners<br/>(XS → M)"]
+    Q{Who are we monetizing?} --> BIZ["Registered businesses<br/>(XS → L)"]
     Q --> IND["Individual providers<br/>(rung I)"]
     BIZ --> D1["DECIDED: SaaS-first subscription"]
-    D1 --> D2["Price ladder under test ₹49–299/mo<br/>+ tier contents (calendar · badge · storefront)"]
-    IND --> O1["Option A — free verified core,<br/>earn later on outcomes — RECOMMENDED"]
-    IND --> O2["Option B — light ProBadge subscription"]
-    IND --> O3["Option C — order-fee / commission<br/>(needs Gig-Act legal gate)"]
-    IND --> O4["Option D — verification cost pass-through<br/>(who pays L2/L3 = open)"]
-    O1 --> OPD["Decide OQ-I3 + OQ-V2<br/>with partners + provider interviews"]
-    O2 --> OPD
-    O3 --> OPD
-    O4 --> OPD
+    D1 --> D2["OPEN: price ladder ₹49–299/mo<br/>+ tier contents (calendar · badge · storefront)"]
+    IND --> D3["DECIDED: ₹0 free verified core"]
+    D3 --> D4["OPEN (OQ-V2): who pays govt<br/>verification fees (L2, home-entry)"]
+    D3 --> D5["Graduation I → XS+ = first pay moment<br/>(shop / premises / staff → subscription)"]
 ```
 
 **Price anchors (research, `[VERIFIED]`):** owners already pay ₹500–4,000/yr for serious billing tools; Vyapar ≈ ₹629–1,799/yr; OkCredit = ₹0 → **the ₹0 anchor is the core pricing risk**, so the subscription must sell calendar value (fines/filings avoided) + growth value (badge → orders), and interviews test the ladder.
 
-**Why individuals get a different set:** 40% of gig workers earn <₹15k/mo `[VERIFIED]`; today's industry monetizes them with hated lead fees (₹40–250/lead) and ₹3,000/mo packs `[VERIFIED]`; new entrants (ProNearMe, HelpRush) signal zero-upfront/outcome-only `[VERIFIED]`. Full analysis: `docs/pricing-model.md`.
+**Why individuals are ₹0:** 40% of gig workers earn <₹15k/mo `[VERIFIED]`; today's industry monetizes them with hated lead fees (₹40–250/lead) and ₹3,000/mo packs `[VERIFIED]`; new entrants (ProNearMe, HelpRush) signal zero-upfront/outcome-only `[VERIFIED]`; free solo pros seed booking density for cold start; and the ladder converts them to paid at XS+. Full model + boundary rule: `docs/pricing-model.md`.
 
 ---
 
@@ -240,7 +235,8 @@ Every claim in the research docs carries `[VERIFIED]` / `[ESTIMATED]` / `[VERIFY
 |---|---|---|---|---|
 | OQ3 | Which hook converts first: badge, deals or bookings? | Lean: badge + deals for grocery; bookings for services (test in interviews) | H1–H6 scripts ready | |
 | OQ9* | Monthly price band + what tiers include | Ladder test ₹49–299/mo; lean: calendar + badge/storefront bundled | Vyapar ₹629–1,799/yr anchor | |
-| OQ-I3 | Individual-provider monetization (rung I) | Lean: **Option A** — free verified core → outcome-linked later | ProNearMe/HelpRush signals | |
+| OQ-I3 | Individual-provider monetization (rung I) | **RESOLVED 2026-09-08: ₹0 free verified core** — no subscription/commission; ladder monetizes at graduation to XS+; only govt verification fees (OQ-V2) may be passed through | Gig earnings + lead-fee pain research; ProNearMe/HelpRush signals | |
+| OQ-V2 | Who pays verification costs (L2 ₹50–200, L3) | Lean: govt fee at cost for home-entry categories; L1/L4 free | Cost rails ₹0.15–₹500 | |
 | OQ-V2 | Who pays verification costs (L2 ₹50–200, L3) | Lean: launch subsidy for density, then pass-through | Cost rails ₹0.15–₹500 | |
 | OQ-I1 | Do pilot tradesmen need ProBadge in v0.3 or ride shop profile w/ mobile flag? | Lean: ride shop profile in pilot | Gig research §4–5 | |
 | OQ-I2 | When do we become a "platform" under KA Gig Act 2025? | Legal review before individual matching | Act in force 30-May-2025 | |

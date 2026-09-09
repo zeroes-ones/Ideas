@@ -82,7 +82,7 @@ Read in this order; each file ends with implications:
 
 ## 5. State of the plan & what's open
 - **Done:** research (6 files) + full spec (5-doc pattern + stage model + module map + vision) through v0.3 + validation tools + W35 tooling.
-- **Open decisions (founder)** — scope-brief OQs 1–10: PA partner & fees; which hook (badge/deals/bookings) converts first (OQ3 → H1–H6 interviews); booking workflow readiness of mechanics; deal/no-show rules; **OQ9 resolved → SaaS-first from business owners (2026-09-08); remaining = monthly price point + subscription tiers, validate in H1–H6**; licence-portal routing — Bengaluru 5 corporations + Hyderabad GHMC/TS (OQ10); Hyderabad field pass = W35b + `research/hyderabad-pilot-map.md`.
+- **Open decisions (founder)** — scope-brief OQs 1–10: PA partner & fees; which hook (badge/deals/bookings) converts first (OQ3 → H1–H6 interviews); booking workflow readiness of mechanics; deal/no-show rules; **OQ9 resolved → SaaS-first from business owners (2026-09-08); remaining = monthly price point + subscription tiers, validate in H1–H6** · **OQ-I3 resolved → individuals (rung I) ₹0 free verified core, businesses XS→L pay SaaS (2026-09-08; `docs/pricing-model.md`)**; licence-portal routing — Bengaluru 5 corporations + Hyderabad GHMC/TS (OQ10); Hyderabad field pass = W35b + `research/hyderabad-pilot-map.md`.
 - **First executable step:** run W35 (`scripts/pilot-denominator.py`), then W36 field walk, then W38 interviews — all tooled and cross-linked.
 
 ## 6. Version control & changelog conventions

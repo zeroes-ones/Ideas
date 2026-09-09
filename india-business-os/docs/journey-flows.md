@@ -9,7 +9,7 @@
 | Actor | Ladder rung | Badge/verification | Main screens | Monetization |
 |---|---|---|---|---|
 | **Customer** (Priya-type) | — | Sees BusinessBadge / ProBadge chips; consumer = phone-verified + order history | C16–C24 (discovery→storefront→cart/booking→pay→track→review) | Free (growth engine) |
-| **Individual provider** (Imran-type) | I | **ProBadge** L1 identity · L2 background · L3 skill · L4 ratings (wave C; pilot = rides shop "mobile service" flag, OQ-I1) | S1–S7 (light), S14a availability, S14b deals, S14 inbox | Free verified core → outcome-linked later (option A, OQ-I3 pending) |
+| **Individual provider** (Imran-type) | I | **ProBadge** L1 identity · L2 background · L3 skill · L4 ratings (wave C; pilot = rides shop "mobile service" flag, OQ-I1) | S1–S7 (light), S14a availability, S14b deals, S14 inbox | **₹0 free verified core (decided 2026-09-08)** — no subscription/commission; govt verification fees (OQ-V2) |
 | **Small business** (Sunita kirana-type) | XS → S | **BusinessBadge** = registrations valid, no expired licences (auto-hide) | S1–S15 full Launch Copilot + merchant OS | SaaS-first subscription (decided) |
 | **Medium business** (Meera-type) | S → M | BusinessBadge per branch/entity; compliance calendar full | S3–S15 + branch config, people triggers, audit prep | SaaS-first (higher tier / per-branch) |
 | **Large business** (Arvind-type) | L (roadmap) | Governance & audit readiness; not MVP | S6-scale packs (board, ESOPs, IEC, data room) | SaaS-first enterprise (Phase 3) |
@@ -152,14 +152,14 @@ flowchart LR
     E --> F["Ratings compound L4<br/>customers rebook the SAME pro"]
     F --> A
 ```
-**Monetization note:** under option A (recommended, OQ-I3 pending) the verified core is **free**; the value is the badge that *travels* + predictable earnings (no lead packs — industry lead fees ₹40–250 are the anti-pattern `[VERIFIED]`). Legal: matching individuals = aggregator duties under KA Act 2025 and TS Act 2026 (OQ-I2 gate, both cities `[VERIFIED 2026-09-08]`).
+**Monetization note:** **decided 2026-09-08 — rung I is ₹0**: free verified core (ProBadge chips), no subscription, no commission, no lead fees; the value is the badge that *travels* + predictable earnings (industry lead fees ₹40–250 are the anti-pattern `[VERIFIED]`). Only open cost: govt verification fees for home-entry categories (OQ-V2). Graduation I→XS+ (shop/premises/staff) = the first pay moment. Legal: matching individuals = aggregator duties under KA Act 2025 and TS Act 2026 (OQ-I2 gate, both cities `[VERIFIED 2026-09-08]`).
 **Expectations (cross-scenario):** no upfront cost or lead fees; badge is *mine* and moves with me; steady, predictable demand (not bidding); clear job scope before travel; safe both-ways (customers verified too); earnings visible.
 
 ### I1 — Mobile AC technician onboards and gets his first booked jobs
 - **Persona:** Imran, 29, Hyderabad; AC/refrigeration tech; currently earns ₹25–35k/mo via informal referrals and a big platform that takes a cut `[research — UC-class avg net ₹26–34k/mo]`.
 - **Trigger:** wants his own customers; tired of lead packs that charge ₹40–250 whether or not the job converts `[VERIFIED — gig research]`.
 - **Journey:** (1) App role = business → "I provide services, no shop" → light onboarding (S1–S3): Udyam Assist (free, credit gate) + e-Shram UAN `[VERIFIED rails]`. (2) **ProBadge L1** (Aadhaar eKYC ~₹0.15/check) + **L4** (ratings from order-verified jobs); L2/L3 deferred for his category in pilot (OQ-I1 ride). (3) S14a availability: sets "AC service Wed–Sun, 10–7"; service price basis "₹350 visit + parts". (4) First bookings arrive via S14 inbox with customer name/address/photo (two-way verification).
-- **What he expects in detail:** zero signup cost and no per-lead charge (option A); to see the job's scope + distance before accepting (his travel ₹9–12k/mo is real `[VERIFIED — gig research]`); on-time, predictable demand — not 3 calls Tuesday and silence Friday; to be paid reliably and visibly (UPI settlement records); his ProBadge to be *his* asset he can show even outside the app.
+- **What he expects in detail:** zero signup cost and no per-lead charge (decided: ₹0 free core); to see the job's scope + distance before accepting (his travel ₹9–12k/mo is real `[VERIFIED — gig research]`); on-time, predictable demand — not 3 calls Tuesday and silence Friday; to be paid reliably and visibly (UPI settlement records); his ProBadge to be *his* asset he can show even outside the app.
 - **Outcome:** 4 booked jobs week 1; reviews build L4; earnings predictable. **Metric:** CM5 confirm; SM funnel (light I-path). **Edge:** a customer who books and never shows → no-show policy (OQ5) protects his time.
 
 ### I2 — Electrician adds a police-verified badge to enter homes
